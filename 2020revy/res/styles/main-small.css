@@ -1,0 +1,269 @@
+@media screen and (max-width: 1230px) {
+    #content .actors .actor {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #content .actors .actor .img {
+        order: 2;
+    }
+    #content .actors .actor .text {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    #top .content .logo {
+        width: 900px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    /* #nav */
+    #nav>ul li {
+        margin: 0 15px;
+    }
+    #nav>ul li a {
+        font-size: 150%;
+    }
+    #top .content .logo {
+        width: 700px;
+    }
+    #content .actors .actor {
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    /* #content[index.html] */
+    #content .social {
+        width: 85%;
+    }
+    #content .teaser {
+        min-height: initial;
+    }
+    #content .teaser .wrap {
+        height: 500px;
+    }
+    /* #footer */
+    #footer .fragment {
+        padding: 1em 0;
+    }
+    #footer .fragment:first-of-type {
+        padding-bottom: 0;
+    }
+    #footer .fragment:last-of-type {
+        padding-top: 1em;
+    }
+    #footer .spons .wrap img {
+        margin: 10px;
+    }
+    #footer .authorcreds {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    /* #nav */
+    #nav>ul li {
+        margin: 0 10px;
+    }
+    #nav>ul li a {
+        font-size: 130%;
+    }
+    #top .content .logo {
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    /* #top */
+    #top .content .countdown {
+        width: initial;
+    }
+    #top .content .title {
+        line-height: 130%;
+        font-size: 43px !important;
+    }
+    /* #content[index.html] */
+    #content .social {
+        width: 90%;
+    }
+    #content .teaser .wrap {
+        height: 450px;
+    }
+    /* #content[skuespillere.html] */
+    #content .actors {
+        width: 90%;
+    }
+    #content .actors .actor .text{
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    /* #nav */
+    #nav>ul li {
+        margin: 0 5px;
+    }
+    #nav>ul li a {
+        font-size: 110%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    /* #nav */
+    #nav .nlogo {
+        height: 50px;
+        margin-top: 20px;
+    }
+    #nav>ul {
+        margin: 0 5px;
+    }
+    #nav>ul li a {
+        font-size: 100%;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    /* #top */
+    #top .content .title {
+        font-size: 38px !important;
+    }
+    #top .content .logo {
+        width: 300px;
+    }
+    #top .content .title.fs40 {
+        font-size: 30px !important;
+    }
+    /* #content[index.html] */
+    #content .teaser .wrap {
+        height: 400px;
+    }
+    /* #content[skuespillere.html] */
+    #content .actors {
+        width: initial;
+        padding: 0 10px;
+    }
+    #content .actors .actor .img img {
+        width: 400px;
+    }
+    #content .actors .actor .text{
+        font-size: 20px;
+    }
+    /* #footer */
+    #footer .spons .wrap {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    /* #nav */
+    #nav.index, #nav {
+        display: block;
+        height: 140px;
+        background-color: #161616;
+    }
+    #nav .nlogo {
+        margin-top: 0;
+        padding-top: 5px;
+        margin-bottom: 5px;
+    }
+    #nav>ul li a {
+        margin-top: 0;
+        height: 40px;
+        line-height: 40px;
+    }
+    /* #top */
+    #top .content .title {
+        line-height: 130%;
+        font-size: 30px !important;
+    }
+    #top .content .logo {
+        width: 250px;
+    }
+    #top .content .countdown > span {
+        width: 50%;
+    }
+    /* #content */
+    #content {
+        min-height: 0;
+    }
+    /* #content[index.html] */
+    #content .social {
+        width: initial;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #content .social>div {
+        font-size: 50px;
+    }
+    #content .teaser .wrap {
+        height: 350px;
+    }
+    /* #content[skuespillere.html] */
+    #content .actors .actor {
+        width: 100%;
+    }
+    #content .actors .actor .img img {
+        width: 350px;
+    }
+    #content .actors .actor .text{
+        font-size: 20px;
+    }
+    /* #footer */
+    #footer .fragment {
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #footer .spons .wrap img {
+        margin: 0;
+        max-width: 300px;
+        max-height: 30px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    /* #top */
+    #top .content .title {
+        line-height: 130%;
+        font-size: 30px !important;
+    }
+    #top .content {
+        margin: 0 10px;
+    }
+    #top .content .logo {
+        width: 80%;
+    }
+    /* #content[index.html] */
+    #content .teaser .wrap {
+        height: 300px;
+    }
+    /* #content[skuespillere.html] */
+    #content .actors .actor .img{
+        flex-basis: 60%;
+    }
+    #content .actors .actor .text{
+        font-size: 19px;
+    }
+    /* #footer */
+    #footer .spons .wrap img {
+        margin: 0;
+        max-width: 90%;
+        max-height: 20px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    /* #content[skuespillere.html] */
+    #content .actors .actor {
+        width: initial;
+    }
+    /* #content[skuespillere.html] */
+    #content .actors .actor .img{
+        flex-basis: 60%;
+    }
+    #content .actors .actor .text{
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/*#008083*/
+html, body {
+  font-family: 'PT Sans', sans-serif;
+  color: #ffffff;
+  text-align: center;
+  height: 100%;
+  position: relative;
+  background: -webkit-linear-gradient(45deg, #008083 40%, #13AC71 80%);
+  background: linear-gradient(45deg, #008083 40%, #13AC71 80%);
+  overflow: hidden;
+  background-size: 200% 100% !important;
+  -o-animation: move 20s ease infinite;
+  -moz-animation: move 20s ease infinite;
+  -webkit-animation: move 20s ease infinite;
+  animation: move 20s ease infinite;
+}
+
+#top{
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#top .img-wrap{
+    text-align: center;
+}
+#top img{
+    color: #ff0000;
+}
+
+#top .img-rings{
+    position: absolute;
+    -webkit-animation: ICON-TRANSITION 20s infinite; /* Safari 4+ */
+    -moz-animation:    ICON-TRANSITION 20s infinite; /* Fx 5+ */
+    -o-animation:      ICON-TRANSITION 20s infinite; /* Opera 12+ */
+    animation:         ICON-TRANSITION 20s infinite; /* IE 10+, Fx 29+ */
+}
+
+#top h2{
+    font-size: 60pt;
+    margin-top: 0.7em;
+    margin-bottom: 0.8em;
+}
+
+#countdown{
+    width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#countdown .timer{
+    display: flex;
+    flex-direction: row;
+}
+
+#countdown .timer span{
+    flex-basis: 25%;
+    font-size: 50pt;
+    line-height: 90%;
+    font-weight: bold;
+}
+
+#countdown .fields{
+    display: flex;
+    flex-direction: row;
+}
+
+#countdown .fields span{
+    flex-basis: 25%;
+    font-size: 24pt;
+}
+
+/*Social Media*/
+#social-media {
+  position: absolute;
+  bottom: 5px;
+  left: 2px;
+  font-size: 0;
+}
+
+.fa {
+  padding: 14px;
+  font-size: 36px;
+  width: 36px;
+  text-align: center;
+  text-decoration: none;
+  margin: 0px 3px;
+  bottom: 0;
+  border-radius: 50%;
+  transition: 100ms ease-in-out;
+  position: relative;
+}
+
+.fa:hover {
+  opacity: 0.7;
+  bottom: 7px;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+/* Animations */
+/* Rings */
+@-webkit-keyframes ICON-TRANSITION {
+  0%   {
+    -webkit-filter: opacity(.5) drop-shadow(0 0 0 #ffffff); /* white */
+    filter: opacity(.5) drop-shadow(0 0 0 #ffffff);
+  }
+  20%  {
+    -webkit-filter: opacity(.5) drop-shadow(0 0 0 #ac00cb); /* purple */
+    filter: opacity(.5) drop-shadow(0 0 0 #ac00cb);
+  }
+  40%  {
+    -webkit-filter: opacity(.5) drop-shadow(0 0 0 #592df3); /* blue */
+    filter: opacity(.5) drop-shadow(0 0 0 #592df3);
+  }
+  60%  {
+    -webkit-filter: opacity(.5) drop-shadow(0 0 0 #ff0000); /* red */
+    filter: opacity(.5) drop-shadow(0 0 0 #ff0000);
+  }
+  80%  {
+    -webkit-filter: opacity(.5) drop-shadow(0 0 0 #30ee1c); /* green */
+    filter: opacity(.5) drop-shadow(0 0 0 #30ee1c);
+  }
+  100% {
+    -webkit-filter: opacity(.5) drop-shadow(0 0 0 #ffffff); /* white */
+    filter: opacity(.5) drop-shadow(0 0 0 #ffffff);
+  }
+}
+
+@-moz-keyframes ICON-TRANSITION {
+  0%   {
+    -webkit-filter: opacity(.5) drop-shadow(0 0 0 #ffffff); /* white */
+    filter: opacity(.5) drop-shadow(0 0 0 #ffffff);
+  }
+  20%  {
+    -webkit-filter: opacity(.5) drop-shadow(0 0 0 #ac00cb); /* purple */
+    filter: opacity(.5) drop-shadow(0 0 0 #ac00cb);
+  }
+  40%  {
+    -webkit-filter: opacity(.5) drop-shadow(0 0 0 #592df3); /* blue */
+    filter: opacity(.5) drop-shadow(0 0 0 #592df3);
+  }
+  60%  {
+    -webkit-filter: opacity(.5) drop-shadow(0 0 0 #ff0000); /* red */
+    filter: opacity(.5) drop-shadow(0 0 0 #ff0000);
+  }
+  80%  {
+    -webkit-filter: opacity(.5) drop-shadow(0 0 0 #30ee1c); /* green */
+    filter: opacity(.5) drop-shadow(0 0 0 #30ee1c);
+  }
+  100% {
+    -webkit-filter: opacity(.5) drop-shadow(0 0 0 #ffffff); /* white */
+    filter: opacity(.5) drop-shadow(0 0 0 #ffffff);
+  }
+}
+
+@-o-keyframes ICON-TRANSITION {
+    0%   {
+      -webkit-filter: opacity(.5) drop-shadow(0 0 0 #ffffff); /* white */
+      filter: opacity(.5) drop-shadow(0 0 0 #ffffff);
+    }
+    20%  {
+      -webkit-filter: opacity(.5) drop-shadow(0 0 0 #ac00cb); /* purple */
+      filter: opacity(.5) drop-shadow(0 0 0 #ac00cb);
+    }
+    40%  {
+      -webkit-filter: opacity(.5) drop-shadow(0 0 0 #592df3); /* blue */
+      filter: opacity(.5) drop-shadow(0 0 0 #592df3);
+    }
+    60%  {
+      -webkit-filter: opacity(.5) drop-shadow(0 0 0 #ff0000); /* red */
+      filter: opacity(.5) drop-shadow(0 0 0 #ff0000);
+    }
+    80%  {
+      -webkit-filter: opacity(.5) drop-shadow(0 0 0 #30ee1c); /* green */
+      filter: opacity(.5) drop-shadow(0 0 0 #30ee1c);
+    }
+    100% {
+      -webkit-filter: opacity(.5) drop-shadow(0 0 0 #ffffff); /* white */
+      filter: opacity(.5) drop-shadow(0 0 0 #ffffff);
+    }
+  }
+
+@keyframes ICON-TRANSITION {
+  0%   {
+    -webkit-filter: opacity(.5) drop-shadow(0 0 0 #ffffff); /* white */
+    filter: opacity(.5) drop-shadow(0 0 0 #ffffff);
+  }
+  20%  {
+    -webkit-filter: opacity(.5) drop-shadow(0 0 0 #ac00cb); /* purple */
+    filter: opacity(.5) drop-shadow(0 0 0 #ac00cb);
+  }
+  40%  {
+    -webkit-filter: opacity(.5) drop-shadow(0 0 0 #592df3); /* blue */
+    filter: opacity(.5) drop-shadow(0 0 0 #592df3);
+  }
+  60%  {
+    -webkit-filter: opacity(.5) drop-shadow(0 0 0 #ff0000); /* red */
+    filter: opacity(.5) drop-shadow(0 0 0 #ff0000);
+  }
+  80%  {
+    -webkit-filter: opacity(.5) drop-shadow(0 0 0 #30ee1c); /* green */
+    filter: opacity(.5) drop-shadow(0 0 0 #30ee1c);
+  }
+  100% {
+    -webkit-filter: opacity(.5) drop-shadow(0 0 0 #ffffff); /* white */
+    filter: opacity(.5) drop-shadow(0 0 0 #ffffff);
+  }
+}
+
+/*Background animation*/
+@keyframes move {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 100% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+@-webkit-keyframes move {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 100% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+@-o-keyframes move  {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 100% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
