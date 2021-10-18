@@ -22,6 +22,5 @@
     </div>
 
     <?php include 'footer.php'; ?>
-    <h1>hei</h1>
 </body>
 </html>
